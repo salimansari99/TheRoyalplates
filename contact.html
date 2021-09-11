@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us|The Royal Plate</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="images\logo.png" alt="Error">
+        </div>
+        <ul class="nav_items">
+            <li class="item"><a href="#">home</a></li>
+            <li class="item"><a href="#">about</a></li>
+            <li class="item"><a href="#">menu</a></li>
+            <li class="item"><a href="#">reservations</a></li>
+            <li class="item"><a href="#">catering</a></li>
+            <li class="item"><a href="#">gallery</a></li>
+            <li class="item"><a href="#">blog</a></li>
+            <li class="item"><a href="#">contact</a></li>
+        </ul>
+       
+    </nav> 
+    <div class="bg">
+     <img src="about_img\contact.jpg" alt="error">
+     <div class="nav_content">
+        <h3>contact us</h3>
+        <h2>SEND US A MESSAGE</h2>
+      </div>
+      </div>
+<div class="contact_head">
+    <h3>have a question for us</h3>
+    <h1>CONTACT US TODAY</h1>
+    <h3>Phone: +91 9451413108</h3>
+</div>
+<div class="contact_form">
+    <form class="form_contact" name="contact_sheet" method="post">
+    
+        <input type="text" name="Your Name"  placeholder="Your Name" required>
+        
+        <input type="Your mail" name="Email"  placeholder="Email" required>
+       
+      <textarea name="Message"  cols="30" rows="10" placeholder="Message"></textarea><br>
+        <button class="btn" value="submit">SEND</button>
+  
+    
+  
+    </form>
+</div>
+<script type="text/javascript">
+
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwHeVipoI4gHp3BA3RUAq_kXdc0hES--QxY7Z2HZERLJrVE2DTaL7JtAGmwdkksqEpP/exec'
+                const form = document.forms['contact_sheet']
+              
+                form.addEventListener('submit', e => {
+                  e.preventDefault()
+                  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                    .then(response => alert("thanks....conatct you soon..!"))
+                    .catch(error => console.error('Error!', error.message))
+                })
+              
+    
+    
+    </script>  
+</body>
+</html>

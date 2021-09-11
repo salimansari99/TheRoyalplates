@@ -1,0 +1,583 @@
+.navbar{
+    display:flex;
+
+
+}
+.navbar .logo{
+    margin-top:20px;
+    margin-left:80px;
+    padding:5px;
+    width:20%;
+
+}
+.navbar .logo img{
+    margin-left:30px;
+   /* border:2px solid black;*/
+
+
+}
+.navbar .nav_items{
+    display:flex;
+    width:60%;
+    text-decoration: none;
+    list-style: none;
+    margin-top:60px;
+    margin-left:0;
+    padding-top: 0;
+    padding-left:5px;
+    padding-right:5px;
+
+}
+
+.navbar .nav_items a{
+    display:block;
+
+    margin-left:40px;
+    justify-content: space-between;
+    /*border:2px solid black;*/
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:500;
+    font-size: 15px;
+    color:white;
+    text-transform: uppercase;
+   
+   
+}
+.navbar .nav_items a:hover{
+    color:rgb(209, 196, 7);
+    
+}
+
+.bg img{
+    z-index: -1;
+    position:absolute;
+   top:0;
+   left:0;
+   width:100%;
+   height:800px;
+
+}
+.slide1{
+    z-index: -1;
+
+}
+.slide1 img{
+    top:40px;
+    left:0;
+    width:30%;
+    height:680px;
+}
+.slide6{
+    z-index: -1;
+
+}
+.slide6 img{
+    position:absolute;
+    top:100px;
+    right:0;
+    float:right;
+    width:20%;
+    height:700px;
+}
+.nav_content{
+    position:absolute;
+    top:300px;
+    left:40%;
+    margin:15px;
+    align-items: center;
+    text-align:center;
+    justify-content: center;
+
+text-transform: capitalize;
+color:white;
+
+
+}
+.nav_content h3{
+    
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 500;
+    line-height: 30px;
+    color:rgb(214, 228, 15)
+}
+.nav_content h2{
+    
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    line-height: 10px;
+    margin-bottom: 40px;
+    
+    
+    
+}
+.nav_content p{
+    
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 500;
+    line-height: 5px;
+    margin-bottom: 40px;
+    color:rgb(136, 4, 4)
+    
+    
+    
+}
+.nav_bottom img{
+    position:absolute;
+    top:630px;
+    left:33%;
+
+    
+}
+.section{
+    text-align: center;
+    align-items: center;
+    margin-bottom:70px;
+}
+.section .section_content{
+    border: 10px solid black;
+    margin-left:25%;
+margin-right: 25%;
+
+margin-top: 40px;
+margin-bottom: 40px;
+height:600px;
+
+}
+.section .section_content h3{
+   
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 500;
+    line-height: 20px;
+    color:rgb(214, 228, 15);
+    text-transform: capitalize;
+}
+.section .section_content h2{
+    
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    line-height: 10px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    
+}
+.section .section_content p{
+    
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 500;
+line-height: 35px;
+    margin-bottom: 40px;
+    color:rgb(136, 4, 4);
+    
+    
+    
+}
+.section .left img{
+    position:absolute;
+    top:880px;
+    left:20px;
+}
+.section .right img{
+    position:absolute;
+    top:880px;
+    right:20px;
+}
+.section2{
+   
+   height:600px;
+   width:100%;   
+}
+.section2 img{
+    z-index: -1;
+    height:600px;
+    width:100%;   
+}
+.section2 h3{
+position: absolute;
+top: 1700px;
+    left:20%;
+    color:#FFFFE0;	
+font-size: 30px;
+font-weight: 600;
+font-family: cursive;
+text-align: center;
+
+}
+.section2 h2{
+    position: absolute;
+top: 1750px;
+    left:20%;
+    
+     color:#FFFFE0;
+    
+font-size: 40px;
+font-weight: 600;
+font-family:'Times New Roman', Times, serif;
+text-align: center;
+text-transform: uppercase;
+}
+.last{
+   
+    height:600px;
+    width:100%;   
+ }
+ .last img{
+     z-index: -1;
+     height:600px;
+     width:100%;   
+ }
+ .last h3{
+ position: absolute;
+ top: 2200px;
+     left:35%;
+     color:#FFF8DC;	
+ font-size: 38px;
+ font-weight: 600;
+ font-family:'Dancing Script', cursive;
+ text-align: center;
+ 
+ }
+ .last h2{
+     position: absolute;
+ top: 2250px;
+     left:35%;
+     
+      color:#FFF8DC;	
+     
+ font-size: 45px;
+ font-weight: 600;
+ font-family:cursive;
+ text-align: center;
+ text-transform: uppercase;
+ }
+ .testi{
+     margin:5px;
+     padding:5px;
+     background-color: rgb(179, 167, 167);
+ }
+ .testi .item{
+     
+     width:80%;
+     height:400px;
+ }
+ 
+ .testi .item img{
+     margin-top: 0px;
+     margin-left:0px;
+     height:400px;
+     width:600px;
+     
+ }
+ .testi .item .carousel-caption{
+     margin-top: 20%;
+     margin-left: 50%;
+     font-size: 25px;
+     width:40%;
+     font-family: 'Times New Roman', Times, serif;
+     font-weight: bold;
+     color:black;
+     margin-top: 20px;
+ }
+ .testi .item .carousel-caption h3{
+     font-size: 40px;
+     font-family:'Dancing Script', cursive; 
+     color:rgb(223, 226, 19);
+ }
+ .testi .item .carousel-caption h2{
+    font-size: 50px;
+     text-transform: uppercase;
+     color:rgb(223, 226, 19);
+ }
+ .testi .item .carousel-caption ul{
+     color:brown;
+ }
+ .form{
+margin:10px;
+padding:5px;
+width:100%;
+height:700px;
+background-color: rgb(132, 139, 143);
+ }
+ .form .form_left img{
+     position:absolute;
+     margin-left: 20px;
+     margin-top:50px;
+     top:3250px;
+left:40px;
+     margin-bottom: 50px;;
+     width:25%;
+     height:500px;
+     border:2px solid black;
+ }
+ .form .form_right img{
+     position:absolute;
+    margin-right: 20px;;
+    margin-top:50px;
+    margin-bottom: 50px;
+    top:3250px;
+    right:40px;
+    width:25%;
+    height:500px;
+    border:2px solid black;
+}
+.form .form_content{
+    position: absolute;
+    top:3350px;
+    margin-left: 40%;
+    
+}
+.form .form_content input{
+    width:150%;
+    height:35px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border:2px solid black;
+}
+.form .form_content .btn{
+    width:150%;
+    height:35px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    text-align: center;
+    color:white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+     font-weight: bold;
+     border:2px solid black;
+     background-color: black;
+     text-transform: uppercase;
+}
+.form .form_content .btn:hover{
+    background-color: rgb(116, 68, 68);
+}
+.form .head{
+    position: absolute;
+    top:3250px;
+    margin-left: 40%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.form .head h3{
+    font-size: 20px;
+    font-family: cursive;
+     font-weight: bold;
+     text-transform: uppercase;
+     color:rgb(70, 16, 25);
+}
+.form .head h2{
+    font-size: 26px;
+    font-family: 'Times New Roman', Times, serif;
+     font-weight: bold;
+     text-transform: uppercase;
+     color:rgb(58, 10, 2);
+} 
+.footerbar{
+    background-color: black;
+    height:640px;
+    width:100%;
+
+}
+.footerbar .footer_content{
+    color:rgb(77, 3, 3);
+    background-color: rgb(146, 134, 134);
+}
+
+.footerbar .footer_content p{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    
+    }
+    .footerbar .footer_content h1{
+        font-size: 40px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 600;
+        
+        }
+        .footerbar img{
+
+            margin-top: 90px;
+            margin-left: 40%;
+        }
+        .footerbar .midpart{
+            text-align: center;
+            margin-top: 30px;
+            margin-left: 0;
+        }
+        .footerbar .midpart p{
+            font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    color:#FFF8DC; 
+        }
+        .footerbar .midpart h3{
+            font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    color:#6e1c07; 
+        }
+  .footerbar .social_media{
+      font-size: 30px;
+      
+      margin-left: 140px;
+      margin-top:0;
+      padding:0;
+      top:0px;
+      left:0px;
+  }     
+  .footerbar .social_media a{
+      color:rgba(121, 121, 114, 0.918);
+      margin-top:0;
+      padding:0;
+      border: 2px solid black;
+      border-radius: 30%;
+  } 
+  .footerbar .social_media a:hover{
+      background-color: rgb(150, 147, 147);
+  }
+  .footerbar .terms{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:600;
+    color:white;
+    
+    margin-left: 120px;
+    margin-top:0;
+    padding:0;
+    top:0px;
+    left:0px;
+}   
+.footerbar .creator{
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color:rgb(163, 7, 7);
+    
+    margin-left: 600px;
+    margin-top:0;
+    padding:0;
+    top:0px;
+    left:0px;
+    text-transform: uppercase;
+}   
+
+
+.about_content img{
+    width:40%;
+    height:500px;
+    top:900px;
+    position:absolute;
+   left:10px;
+
+
+}
+.about_content h3{
+    top:860px;
+    position:absolute;
+   
+   margin-left:900px;
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: 400;
+
+
+   
+    color:rgb(100, 43, 5)
+}
+.about_content h2{
+    top:900px;
+    position:absolute;
+   margin-top: 35px;
+   margin-left:870px;
+    font-size: 32px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    color:rgb(24, 12, 3)
+}
+.about_content h4{
+    top:940px;
+    position:absolute;
+   
+   margin-left:820px;
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: 600;
+
+
+   
+    color:rgb(104, 44, 3)
+}
+.about_content p{
+    top:1040px;
+    position:absolute;
+    margin-left:820px;
+    font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 500;
+   
+}
+
+.contact_head{
+    position: absolute;
+    top:750px;
+    left:30%;
+
+margin:60px;
+padding:20px;
+
+font-weight: bold;
+}
+.contact_head h3{
+   text-align: center;
+   color:rgb(99, 42, 8);
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: bold;
+    }
+.contact_form{
+    position: absolute;
+    top:1080px;
+    left:30%;
+    height:600px;
+}
+.contact_form .form_contact{
+    margin:20px;
+    padding:10px;
+    height:400px;
+
+
+}
+.contact_form .form_contact input{
+    margin:10px;
+
+    height:25px;
+    width:50%;
+    border:2px solid rgb(170, 4, 4)
+}
+.contact_form .form_contact textarea{
+    margin:10px;
+    height:80px;
+    width:80%;
+    border:2px solid rgb(170, 4, 4)
+}
+.contact_form .form_contact .btn{
+
+    color:rgb(252, 249, 243);
+    width:10%;
+    height:40px;
+    margin:10px;
+    margin-left: 20%;
+   
+    padding:5px;
+   
+    background-color:rgb(17, 12, 4);
+}
+.contact_form .form_contact .btn:hover{
+    background-color: rgb(95, 94, 94);
+}
